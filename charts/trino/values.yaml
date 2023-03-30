@@ -129,6 +129,8 @@ service:
   type: ClusterIP
   port: 8080
 
+  annotations: {}
+
 auth: {}
   # Set username and password
   # https://trino.io/docs/current/security/password-file.html#file-format
